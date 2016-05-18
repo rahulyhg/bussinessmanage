@@ -1,0 +1,148 @@
+body{
+    background-color: white!important;
+}
+#menu{
+    height: 50px;
+    padding: 0 10px;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 1;
+}
+#menu img{
+    height: 40px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+#menu > * {
+    display: inline-block;
+}
+#menu h2{
+    line-height: 50px;
+    color: white;
+    font-weight: 900;
+    text-shadow: black 1px 1px 10px;
+}
+#menu a{
+    float: right;
+    color: white;
+    padding: 0 5px;
+    line-height: 50px;
+    font-size: 14px;
+}
+#slider{
+    height: 550px;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-position: bottom;
+}
+
+#sliderMessage{
+    text-align: center;
+    padding-top: 220px;
+}
+#sliderMessage h3{
+    font-size: 22px;
+    color: white;
+    width: auto;
+    line-height: 50px;
+    margin-bottom: 20px;
+    text-shadow: black 1px 1px 10px;
+    font-weight: 900;
+}
+#slidersearch{
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    width:100%;
+}
+#search{
+    margin-top: 12px;
+}
+#platformMockup{
+    background-color: white;
+    position: relative;
+}
+#platformMockup img{
+    width: 100%;
+}
+#landingFooter{
+    background: #2C73BA;
+    position: relative;
+    z-index: 1;
+}
+#social{
+    text-align: center;
+    padding-top: 10px;
+}
+#copyright{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.right{
+    float: right;
+}
+.marginTop5{
+    margin-top: 5px;
+}
+.marginRight5{
+    margin-right: 5px;
+}
+#mockupOneLiner{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: -50px;
+    z-index: 2;
+    position: relative;
+}
+#stats, #features{
+    text-align: center;
+    padding: 50px 0;
+    background-color: white;
+    position: relative;
+}
+#features{
+    z-index: 1;
+    margin-top: 550px;
+}
+#stats h1{
+    font-size: 30px;
+    line-height: 60px;
+    color: black;
+}
+.stat, .feature{
+    width: 30%;
+    display: inline-block;
+    color: black;
+    padding: 20px 0;
+}
+.number{
+    font-size: 40px;
+}
+.bigIcon i {
+    font-size: 50px;
+    color: #2C73BA;
+}
+.feature h3{
+    font-size: 30px;
+}
+.text {
+    padding: 0 20%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+}
+@media (max-width: 600px) {
+    .stat, .feature{
+        width: 100%;
+    }
+    #mockupOneLiner {
+        color: #2C73BA;
+        margin-bottom: 0;
+    }
+}

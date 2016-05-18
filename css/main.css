@@ -1,0 +1,1589 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:top;
+    background:transparent;
+    font-family: 'Roboto',sans-serif;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:top;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #e8e8e8;
+    margin:0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/** Reset **/
+
+html, body, #mainMenu, .dashboard{
+    height: 100%;
+}
+	  
+body {
+	background-color: #F5F5F5;
+	color: #555861;
+    overflow: hidden;
+}
+
+.wrapper{
+	padding: 15px;
+}
+
+#header{
+    background-color: #2C73BA;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+#add_order {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+#headerLogo{
+    width: 200px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+#headerLogo img{
+    height: 40px;
+    display: inline-block;
+}
+#headerLogo h1{
+    display: inline-block;
+    font-size:16px!important;
+    margin:0!important;
+    letter-spacing: 0!important;
+    line-height: 40px;
+    color: white;
+    padding-left: 10px;
+    font-weight: 700;
+}
+#headerMenu{
+    padding: 5px 10px;
+    float: right;
+    height: 40px;
+    color: white;
+}
+#logo img {
+    width: 100px;
+    height: 100px;
+}
+#headerMenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 5px;
+}
+.emailreg {
+    background: #2C73BA;
+    color: white;
+    border: 1px solid white;
+    width: 100%!important;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+#headerMenuMobile{
+    display: none;
+    width: 50px;
+    padding: 5px 10px;
+}
+#headerMenuMobile a{
+    display: inline-block;
+    width: 60px;
+}
+#menudashes{
+    display: inline-block;
+    line-height: 40px;
+    color: white;
+    font-size: 15px;
+}
+#headerMenuMobile img{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.imageviewdata img {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+}
+#mainMenu{
+    width: 260px;
+    position: absolute;
+    padding-top: 51px;
+    box-sizing: border-box;
+    z-index: 3;
+    left: 0;
+    border-right: 1px solid #D6D6D6;
+    background: white;
+}
+#maplist {
+    width:100%;
+    height: 400px;
+}
+#mainMenu a {
+    display: list-item;
+    line-height: 50px;
+    color: #555861;
+    text-decoration: none;
+    font-size: 14px;
+}
+#mainMenu .material-icons {
+    line-height: 40px;
+    padding: 5px 10px;
+}
+#mainMenu a:hover{
+    background: #eeeff0;
+}
+#slider {
+    margin: 5px 0px;
+}
+#logo {
+	text-align: center;
+	margin-bottom: 10px;
+}
+#loader {
+    width:100%;
+    text-align: center;
+}
+#loginSubmit{
+    max-width: 300px;
+}
+.socialSignIn img {
+    height: 100%;
+    float: left;
+    padding: 0 30px;
+}
+.socialGpSignUp img {
+    height: 100%;
+    float: left;
+    padding: 0 30px;
+}
+.socialFbSignUp img {
+    height: 100%;
+    float: left;
+    padding: 0 30px;
+}
+#loginHR{
+    padding-bottom: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.emailreg{
+    cursor: pointer;
+}
+.gbutton{
+    background: white;
+    color: #2C73BA;
+    display: block;
+    border: 1px solid #E3E3E3;
+    margin-top: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    max-width: 300px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.gbuttonsignup{
+    background: white;
+    color: #2C73BA;
+    display: block;
+    border: 1px solid #E3E3E3;
+    margin-top: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    max-width: 300px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.inputs {
+    margin: 5px 15px;
+
+}
+#dhembi img {
+    display: block;
+    width: 40px;
+    margin-left: -5px;
+}
+#datediv h2 {
+    font-size: 20px;
+    margin: 0!important;
+}
+#buttonmargin {
+    margin: 5px 15px;
+
+}
+#map-canvas {
+    width: 100%;
+    height: 600px;
+}
+#locationdiv {
+    width: 100%;
+    height: 400px;
+}
+.userdashblock {
+    float: left;
+    margin: 1%;
+    border-bottom: 1px solid #BBBBBB;
+    background: white;
+    min-height: 350px;
+} 
+#clinics {
+    width: 49%;
+    max-height: 650px;
+    overflow-y: scroll;
+}
+#clinicinfo {
+    width: 400px;
+    display: inline-block;
+    
+}
+#clmapdiv {
+    width: 100%;
+    display: inline-block;
+    height: 550px;
+}
+#mapsdivs{
+    width: 47%;
+    height: 600px;
+}
+.headertitle {
+    margin: 15px 5px;
+    font-size: 25px;
+    text-transform: uppercase;}
+#clinicinfo label {
+    color: #A29494;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 9px;
+}
+#clinicinfo p {
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0px 7px;
+}
+
+.tabinfo {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    height: 120px;
+    cursor: pointer;
+}
+.tabinfo:hover {
+box-shadow: 1px 1px 4px gray;
+}
+#clinicname {
+    font-size: 18px;
+    padding: 7px;
+}
+
+.inputs input{
+    height: 20px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+
+}
+#clinlogo img {
+    width: inherit;
+    height: 100px;
+}
+.fbutton{
+    background: #3B5598;
+    color: white;
+    display: block;
+    border: 1px solid #E3E3E3;
+    margin-top: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    max-width: 300px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.fbuttonsignup{
+    background: #3B5598;
+    color: white;
+    display: block;
+    border: 1px solid #E3E3E3;
+    margin-top: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    max-width: 300px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+#usermenu,
+#adminmenu{
+	max-width: 960px;
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0 1px 1px #E8e8e8;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#agnendainfo {
+    text-align: center;
+    
+} 
+#agendatitle {
+    font-size: 16px;
+    background: blue;
+    color: white;
+    height: 20px;
+    padding: 10px;
+}
+#description {
+    margin-top: 10px;
+}
+#treatment {
+    margin-top: 10px;
+}
+#description input {
+    height: 25px;
+    padding: 9px;
+    color: gray;
+    border: 1px solid lightgray;
+    width: 170px;
+
+} 
+#description input {
+    height: 25px;
+    padding: 5px;
+}
+#client {
+    margin: 5px;
+}
+#client  select {
+    width: 160px; 
+    margin: 5px;
+    height: 40px;
+}
+
+.inside-menu a{
+	display: list-item;
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
+	border-right:1px solid #e8e8e8;
+	text-decoration: none;
+	color: #2C73BA;
+	font-size: 15px;
+}
+
+#usermenu a {
+	width: 33.333%;
+}
+
+#adminmenu a {
+	width: 20%;
+}
+
+#usermenu a:last-child,
+#adminmenu a:last-child{
+	border: none;
+}
+
+#usermenu a:hover,
+#adminmenu a:hover{
+	background: #F7F7FB;
+}
+.file_input_div {
+    margin: auto;
+    width: 100%;
+}
+#imgpreview {
+    width:100%;
+}
+
+.file_input {
+    float: left;
+}
+.file_input .material-icons {
+    left: 37%!important;
+}
+#file_input_text_div {
+    width: 200px;
+    margin-top: -8px;
+    margin-left: 5px;
+}
+
+.none {
+    display: none;
+}
+.deletelogo {
+  width: 25px;
+  padding: 6px;
+  float: right;
+  margin-right: 80px;
+  cursor: default;
+
+}
+
+#usercontent{
+	max-width: 960px;
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0 1px 1px #E8e8e8;
+	padding: 10px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.dashboard {
+	width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 260px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+#visit-type select {
+    height: 40px;
+    font-size: 18px;
+}
+.dashHeader{
+    height: 50px;
+}
+.dashHeader > div{
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+.dashHeader > i {
+    line-height: 50px;
+}
+.dashHeader > button{
+    margin-top: 10px;
+}
+.dashHeader button{
+    float: right;
+    margin-right: 10px;
+}
+.dashHeader a {
+    color: white;
+    text-decoration: none;   
+}
+
+.intro {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	border-bottom: 1px solid #e8e8e8;
+    
+}
+#invoiceHeader, #invoiceRows, #invoiceFunctions{
+    text-align: center;
+}
+#invoiceRows h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+#invoiceHeader{
+    margin-bottom: 20px;
+}
+
+#invoiceAddress, #invoiceHeader h2{
+    line-height: 20px;
+}
+
+#invoiceHeader h2{
+    font-size: 22px;
+}
+.invocedatarow{
+    border-bottom: 1px solid darkgray;   
+}
+input.serviceToPay{
+    zoom: 1.5;
+}
+.invocedatarow > div {
+    display: inline-block;
+    width: 33%;
+    line-height: 30px;
+}
+
+.invoiceTotal {
+    margin-top: 40px;
+    font-weight: 900;
+    width: 33%;
+    margin-left: 66%;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+}
+.invoicerow{
+    font-size: 0;
+}
+.invoicerow .rows{
+    font-size: initial;
+    width: 33%;
+    display: inline-block;
+    border: 1px solid darkgray;
+    height: 30px;
+    line-height: 30px;
+}
+.invocerow {
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+.invocerow:hover {
+    background: #F7F7FB;
+}
+#clinicdiv {
+    width: 500px;
+    height: 500px;
+}
+.ainvoicerow {
+    width: 100%;
+    clear: both;
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+.ainvoicerow:hover {
+    background: #F7F7FB;
+}
+.ainvoicerow > div {
+    width: 20%;
+    float: left;
+}
+
+.intro  h2{
+	padding: 0;
+	margin: 0;
+}
+/* Login Index */
+.loginForm {
+	background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    color: #2C73BA;
+    padding: 10px;
+    box-shadow: 0 1px 1px #E8e8e8;
+    border-radius: 2px;
+    margin-top: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.Promo{
+    width: 100%;
+    background-color: white;
+    padding: 100px 0;
+    min-height: 300px;
+    margin-top: 50px;
+}
+.PromoInside{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+.PromoInside img{
+    max-width: 400px;
+}
+.iPhoneInsideObj{
+    display: inline-block;
+}
+.iPhoneInsideDiv{
+    padding: 2%;
+    width: 50%;
+    line-height: 2;
+}
+.iPhoneInsideDiv h1{
+    color: #2C73BA;
+    font-size: 25px;
+    font-weight: 500;
+}
+.iPhoneInsideDiv h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+.iPhoneInsideDiv p, .iPhoneInsideDiv ul, .iPhoneInsideDiv li{
+    font-weight: 300;
+}
+.iPhoneInsideDiv ul{
+    padding: 20px;
+    line-height: 25px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+}
+
+.team_member{
+  width: 140px;
+  display: inline-block;
+  text-align: center;
+}
+
+.photo_member img {
+  border-radius: 100%;
+  border: 5px solid #2C73BA;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.htmlJumpMenu {
+    text-align: center;
+    line-height: 25px;
+    padding-top: 25px;
+}
+
+.htmlJumpMenu a {
+  color: white;
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+}
+
+.htmlJumpMenu a:hover {
+    padding: 10px 10px 9px 10px;
+  border-bottom: 1px solid white;
+}
+
+.footerMenu{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footerMenu p{
+    color: white;
+    padding: 10px 0;
+}
+
+.loginForm img{
+	display: inline-block;
+}
+.clinicinfo{
+    text-align: center;
+}
+#invoiceLogo img{
+    max-width: 200px;
+}
+
+.login{
+    text-align: center;
+    margin-top: 10px;
+    max-width: 500px;
+    background: white;
+    margin: 0 auto; 
+    height: 450px;  
+}
+
+/*.login input{
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	margin: 0;
+	border: 1px solid lightgray;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
+	padding-left: 10px;
+}*/
+
+.input-box{
+	min-height: 50px;
+}
+
+.preinput-box {
+	width: 40px;
+	line-height: 40px;
+	border: 1px solid lightgray;
+	display: inline-block;
+	height: 40px;
+	vertical-align: middle;
+	border-right: 0;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
+}
+.preinput-box i{
+    line-height: 40px;
+    font-size: 20px;
+}
+.preinput-box img {
+	width: 35px;
+	height: 35px;
+	padding-top: 2px;
+}
+.left{
+	float: left;
+}
+.right {
+	float:right;
+}
+.clear{
+	clear: both;
+}
+.header {
+margin:0 auto;
+width:960px;
+text-align:center;
+}
+.header h2 {
+color:white;
+
+
+}
+.registerdiv {
+	display: inline-block;
+	width: 100%;
+	text-align:center;
+}
+.registerdiv input{
+	width: 100%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
+	min-height: 30px;
+}
+#footer {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	line-height: 3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#calendar{
+    width: 98%;
+}
+#admincalendar {
+    padding: 10px;
+}
+.fc-state-highlight{
+    background: #E6F0FF!important;
+}
+
+#userprofile {
+	max-width: 960px;
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0 1px 1px #E8e8e8;
+	padding: 10px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
+	border-radius: 2px;
+}
+.dentemrow{
+	display: inline-block;
+	width: 100%;
+	line-height: 50px;
+    cursor: pointer;
+}
+.dentemrow:nth-child(even){
+    background: #F7F7FB;
+}
+.pname{
+	float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.pcel{
+	float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.pvisit{
+	float: left;
+    width: 33.3%;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.adfirst{
+    padding-left: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    position: relative;
+}
+.adsecond{
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+	position: relative;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.material-icons{
+    vertical-align: middle;
+    padding: 0 5px;
+}
+button .material-icons{
+    padding: 0;
+}
+
+#passwordch form{
+    text-align: center;
+    padding-top: 20px;
+}
+.socialRemove {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#passwordch{
+    text-align: center;
+}
+#chpass{
+    margin: 10px;
+}
+#currency{
+    height: 40px;
+    line-height: 40px;
+}
+.mrkpd{
+	border: 1px solid lightgray;
+    border-radius: 4px;
+    height: 22px;
+    line-height: 22px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+
+    float: right;
+    margin-top: 3px;
+    background: #F7F7FB;
+    box-shadow: 1px 1px 3px #e8e8e8;
+    font-size: 13px;
+}
+.mrkpd:hover{
+	background: #DEDEF1;
+}
+
+#popmask{
+	display: none;
+    position: fixed;
+    width: 100%;
+    height: auto!important;
+    height: 100%;
+    min-height: 100%;
+    z-index: 6;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#popclose {
+	display: none;
+    position: absolute;
+    margin: auto;
+    right: -45px;
+    top: 5px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+#poptab{
+	display:none;
+	margin: 50px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+	background: white;
+	max-width: 500px;
+	z-index:6;
+    text-align: center;
+}
+#poptab button{
+    margin-bottom: 10px;
+}
+#popcontainer, #cliicProfilecontainer{
+    display: none;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0; right: 0;
+    height: 100%; width: 100%;
+    z-index: 7;
+}
+
+.popheader{
+	border-bottom: 1px solid #2C73BA;
+    height: 40px;
+    color: #2C73BA;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#userreg,
+#userinfo{
+	text-align: center;
+	font-size: 18px;
+}
+
+#userreg #username{
+	width: 50%;
+	height: 25px;
+}
+.inputtxt {
+    width: 45%!important;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 1px solid #DBDBDB;
+    margin-bottom: 4px;
+}
+/*
+#userinfo input[type="text"],#userinfo input[type="email"], #userinfo input[type="password"] {
+    width: 36%;
+	height: 20px;
+	font-size: 18px;
+	padding: 10px 10px;
+	border: 1px solid #DBDBDB;
+    margin-bottom: 4px;
+}
+*/
+.textinput {
+    width: 30%!important;
+}
+
+#userinfo input[type="checkbox"]{
+	zoom: 1.5;
+}
+
+#userinfo fieldset, #sex{
+	display: inline-block;
+	line-height: 28px;
+}
+#userinfo select{
+	height: 32px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+}
+#pregnancy {
+	display:none;
+}
+#label {
+display:none;
+}
+#sickneses{
+	width: 80%;
+	display: inline-block;
+	border-bottom: 1px dashed lightgrey;
+	border-top: 1px dashed lightgrey;
+	padding-top: 5px;
+}
+#allergies{
+	width: 48%;
+	display: inline-block;
+	border-right: 1px dashed lightgray;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+#surgeries{
+	width: 48%;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+#labels label {
+    display: inline;
+}
+#visit-type {
+	width: 33%;
+	padding-bottom: 10px;
+	display: inline-block;
+    margin-right: 15px;
+}
+#visit-type input[type="text"]{
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+}
+#servicediv input[type="text"] {
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+}
+#visit-type select {
+    width: 100%; 
+}
+.footerinfo {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.footerinfo h2 {
+    border-bottom: 1px solid lightgray;
+    padding: 5px 0px;
+}
+#invoiceemail,#invoiceAddress,#invoicecel {
+    display: inline-block;
+    width: 32%;
+    padding: 5px 0px;
+}
+#dhembi {
+	vertical-align: middle;
+	padding: 10px 0px;
+	width: 100%;
+	display: inline-block;
+}
+#firstbox,#secondbox,#thirdbox,#fourthbox {
+    display: inline-block;
+    margin: 5px;
+}
+#wrapper1, #wrapper2 {
+    margin: 0 auto;
+}
+
+#pagesa {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#payment {
+	zoom: 1.5;
+}
+.clinicinfo button {
+    margin-left: 6px;
+}
+.clinicinfo img {
+    width: 200px;
+    heigth: 200px;
+
+}
+.txt1 {
+    width: 200px;
+    margin-right: 30px;
+    display: inline-block;
+}
+.txt2 {
+    width: 200px;
+    display: inline-block;
+}
+.checkboxvisit {
+    margin-left: 7px;
+    padding-top: 18px;
+    padding-left: 0!important;
+}
+.labelvisit {
+    right: 6px;
+}
+#vizita {
+	text-align: center;
+}
+#autocompleteData {
+    position: absolute;
+    width: 60%;
+    font-size: 15px;
+    z-index: 4;
+    background: white;
+}
+
+#vizita-title {
+	text-align: center;
+	font-size: 18px;
+}
+.textclinic {
+    display: block;
+    margin:0 auto;
+}
+#datediv {
+
+	padding-top: 9px;
+}
+#datediv select{
+	height: 32px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+}
+.admin_dash_block{
+    float:left;
+    width: 48%;
+    border-top: 1px solid #ffffff;
+    margin: 1%;
+    border-bottom: 1px solid #BBBBBB;
+    background: #ffffff;
+    overflow: hidden;
+}
+.admin_dash_block .material-icons {
+    line-height: 40px;
+    padding: 0 10px;
+}
+.admin_dash_block_full{
+	float:left;
+    width: 98%;
+    border-top: 1px solid #ffffff;
+    margin: 1%;
+    border-bottom: 1px solid #BBBBBB;
+    background: #ffffff;
+    overflow: hidden;
+    min-height: 350px;
+}
+
+.blockTitle {
+    height: 50px;
+    line-height: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #dbdfeb;
+    color: #697188;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px white;
+    box-sizing: border-box;
+}
+
+.admin_dash_block h2{
+	padding: 10px 0;
+}
+.visitDetails {
+  border-top: 1px solid #e8e8e8;
+}
+.visitDetail{
+    display: inline-block;
+	width: 50%;
+    text-align: center;
+}
+.row {
+	display: inline-block;
+	width: 100%;
+	line-height: 30px;
+	height: 30px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.reports_block{	
+	display: inline-block;
+	width: 45%;
+	padding: 1%;
+	border-top: 1px dashed #e8e8e8;
+	margin: 1%;
+}
+.timeline {
+    position: absolute;
+    left: 59px;
+    border: none;
+    border-top: 2px solid red;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+button[disabled=disabled],
+button:disabled {
+	opacity: 0.3;
+}
+
+#pgresults {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#pgresults > * {
+	vertical-align: baseline;
+}
+
+
+#passwordch h2 {
+	padding-bottom:3px;
+
+}
+#addstaff input[type="text"]{
+	width: 30%;
+	height: 20px;
+	font-size: 18px;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: 1px solid #DBDBDB;
+	margin-bottom:6px;
+}
+#addstaff fieldset{
+	display: inline-block;
+	line-height: 28px;
+}
+#addstaff select{
+	height: 32px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+
+.deleteallergy, .deletesurgery, .deletedisease{
+    float: right;
+    width: 32px;
+    height: 40px;
+}
+.modifyallergy, .modifysurgery, .modifydisease, .addallergy, .addoperations, .adddiseasses{
+    float: right;
+    width: 32px;
+    height: 40px;
+
+}
+.float_button {
+float:right;
+
+}
+#addstaff > div {
+	margin:0 auto;
+	text-align:center;
+
+}
+#addstaff h2 {
+	text-align:center;
+	font-size: 20px
+
+}
+
+.fields {
+    display: inline-block;
+    width: 25px;
+}
+.fields label {
+    display: block;
+}
+#phleft{
+	display: inline-block;
+	margin: 5px 5px 5px 0;
+}
+#uimg{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #B1B9BD;;
+}
+#uimg img{
+	width: 100%;
+	height: 100%;
+}
+#infodiv {
+    text-align: justify;
+    padding: 15px;
+    line-height: 40px;
+}
+#tabsview {
+    display: inline-block!important;
+    width: 69%;
+}
+#phright{
+	display: inline-block;
+	margin: 5px;
+}
+#phright > div:not(:first-child){
+	padding-top: 5px;
+}
+#phname{
+	font-size: 23px;
+	font-weight: 900;
+}
+#pheader{
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    background: #F5F5F5;
+    height: auto;
+    min-height: 500px;
+    text-align: center;
+}	
+#phedit{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.pdetails{
+    width: 100%;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+.pdh{
+	font-weight: 900;
+}
+.pdetails .material-icons{
+    padding: 0 4px;
+}
+.staffrow {
+display:inline-block;
+width:100%;
+border-bottom:1px solid #e8e8e8e8;
+}
+.staffname {
+	display: inline-block;
+	width: 33.32%;
+	position: relative;
+	height: 30px;
+}
+.staffrow select {
+	height: 30px;
+	margin-bottom: 1%;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+}
+
+#graphholder {
+	background: #12125A;
+	min-height: 398px;
+    border-radius: 10px;
+}
+
+#feedbackform{
+    text-align: center;
+    width: 300px;
+    box-sizing:border-box;
+    margin:  0 auto;
+}
+#feedbackform h2 {
+    margin-bottom: 5px;
+}
+
+
+#servicediv {
+    width: 100%;
+    text-align: center;
+}
+#servicename input {
+    height: 30px;
+}
+#servicetypes {
+    padding-top:  5px;
+}
+#servicetypes select {
+    height: 35px;
+    padding: 5px;
+    font-size: 14px;
+}
+#servicetypes h2 {
+    padding-bottom:  3px;
+    font-size: 16px;
+    margin: 0px;
+    
+}
+#servicediv  {
+    width: 32%;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#servicediv select {
+    height: 32px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#datediv input[type="text"] {
+    height: 32px;
+    font-size: 18px;
+}
+#servicepop {
+    width: 100%;
+    text-align: center;
+}
+#patientSearchData{
+    background: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.surnameList{
+    display: inline-block;
+}
+.active{
+    color: #2C73BA!important;
+}
+@media (max-width: 600px){
+    #mainMenu{
+        left: -260px;
+    }
+    .dashboard{
+        padding-left: 0;
+    }
+    #headerLogo{
+        display: none;
+    }
+    #headerMenuMobile{
+        display: inline-block;
+    }
+    .dashHeader{
+        height: auto;
+    }
+}
+@media (max-width: 550px){
+    .admin_dash_block{
+        width: 98%;
+    }
+}
+@media print{
+    body{
+        overflow: hidden;
+        -webkit-print-color-adjust:exact;
+    }
+    #mainMenu{
+        display: none;
+        width: 0;
+    }
+    .dashboard{
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background: white;
+        padding-left: 0;
+    }
+    .dashHeader, #header, .blockTitle, #invoiceFunctions{
+        display: none;
+    }
+    .admin_dash_block, .admin_dash_block_full{
+        border: 0px;
+        border-bottom: 0px;
+        border-radius: 0px;
+    }
+    .footerinfo {
+        margin-top: 200px;
+    }
+    #poptab{
+        max-width: 100%!important;
+        height: 100%!important;
+        margin: 0!important;
+        background-color: white!important;
+        overflow: hidden!important;
+    }
+    .is-checked .mdl-checkbox__focus-helper{
+        background-color: black!important;;
+    }
+    .popheader{
+        display: none!important;
+    }
+    .mdl-checkbox__box-outline{
+        display: none!important;
+    }
+    #loadVisitButtons{
+        display: none;
+    }
+}
+
+/*MDL Button Fixes*/
+.mdl-button--colored{
+    background: #2C73BA!important;
+}
+.mdl-button--primary{
+    color: #2C73BA!important;
+}
